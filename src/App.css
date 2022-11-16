@@ -44,4 +44,5 @@ textarea{
 
 .note{
  color: #327316;
+ word-wrap: break-word
 }

@@ -59,11 +59,11 @@ function Cards({ element, index }) {
         </p>
       ) : null}
       <p>Commentary on the lesson:</p>
-      <p className="note">
+      <div className="note">
         {localStorage.getItem(index)
           ? JSON.parse(localStorage.getItem(index))
           : send}
-      </p>
+      </div>
       <textarea
         onChange={(e) => setComent(e.target.value)}
         name="commets"
